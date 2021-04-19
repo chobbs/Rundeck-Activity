@@ -22,7 +22,7 @@ influx apply -u https://raw.githubusercontent.com/chobbs/local-templates/master/
 - 1 Bucket: `rundeck`, 7d retention
 - Labels: `rundeck` + Telegraf Plugin Labels
 - 1 Telegraf Configuration
-- 1 Dashboard: `Rundeck Activity Executionsm`
+- 1 Dashboard: `Rundeck Execution Activit`
 
 ## Setup Instructions
 
