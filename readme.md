@@ -45,8 +45,6 @@ influx apply -u https://raw.githubusercontent.com/chobbs/local-templates/master/
 
   Start Telegraf using the instructions from the `Load Data` > `Telegraf` > `Setup Instructions` link in the UI.
 
-![Telegraf Setup Instructions](img/linux_system_telegraf.png)
-
 ## Customizations
 
 You can run the provided Telegraf configuration on multiple Linux machines, and switch between them using the `linux_host` filter at the top of the dashboard.
@@ -57,5 +55,4 @@ Provide a way for users to get in touch with you if they have questions or need 
 
 - Author: Craig Hobbs
 - Email: chobbs@pagerduty.comm
-- Github: [@russorat](https://github.com/russorat)
-- Influx Slack: [@russ](https://influxdata.com/slack)
+- Github: [@chobbs](https://github.com/chobbs)
