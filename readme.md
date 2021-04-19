@@ -2,28 +2,27 @@
 
 This InfluxDB Template can be used to monitor ithe job activity of your Rundeck instancem.
 
-![Rundeck Execution Dashboard Screenshot](img/linux_system_dashboard.png)
+![Rundeck Execution Dashboard Screenshot](img/RundeckScreen.png)
 
 ### Quick Install
 
 #### InfluxDB UI
 
-In the InfluxDB UI, go to Settings->Templates and enter this URL: https://raw.githubusercontent.com/influxdata/community-templates/master/linux_system/linux_system.yml
+In the InfluxDB UI, go to Settings->Templates and enter this URL: https://raw.githubusercontent.com/chobbs/local-templates/master/rundeck/rundeck.yml
 
 #### Influx CLI
 If you have your InfluxDB credentials [configured in the CLI](https://v2.docs.influxdata.com/v2.0/reference/cli/influx/config/), you can install this template with:
 
 ```
-influx apply -u https://raw.githubusercontent.com/influxdata/community-templates/master/linux_system/linux_system.yml
+influx apply -u https://raw.githubusercontent.com/chobbs/local-templates/master/rundeck/rundeck.yml
 ```
 
 ### Included Resources
 
-- 1 Bucket: `telegraf`, 7d retention
-- Labels: `Linux System Template` + Telegraf Plugin Labels
+- 1 Bucket: `rundeck`, 7d retention
+- Labels: `rundeck` + Telegraf Plugin Labels
 - 1 Telegraf Configuration
-- 1 Dashboard: `Linux System`
-- 2 Variables: `bucket` and `linux_host`
+- 1 Dashboard: `Rundeck Activity Executionsm`
 
 ## Setup Instructions
 
@@ -56,7 +55,7 @@ You can run the provided Telegraf configuration on multiple Linux machines, and 
 
 Provide a way for users to get in touch with you if they have questions or need help using your template. What information you give is up to you, but we encourage providing those below.
 
-- Author: Russ Savage
-- Email: russ@influxdata.com
+- Author: Craig Hobbs
+- Email: chobbs@pagerduty.comm
 - Github: [@russorat](https://github.com/russorat)
 - Influx Slack: [@russ](https://influxdata.com/slack)
