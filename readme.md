@@ -1,6 +1,6 @@
 ## Rundeck Job Activity Template
 
-This InfluxDB Template can be used to monitor ithe job activity of your Rundeck instancem.
+This InfluxDB Template can be used to monitor ithe execution activity of your Rundeck jobs.
 
 ![Rundeck Execution Dashboard Screenshot](img/RundeckScreen.png)
 
